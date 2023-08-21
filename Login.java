@@ -15,7 +15,7 @@ Login(){
     setTitle("Bank Managment System");
     setLayout(null);
     
-   ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo.jpg"));
+   ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("logo.jpg"));
    Image i2 = i1.getImage().getScaledInstance(80, 80, Image.SCALE_DEFAULT);
    ImageIcon i3 = new ImageIcon(i2);
    JLabel label= new JLabel(i3);
